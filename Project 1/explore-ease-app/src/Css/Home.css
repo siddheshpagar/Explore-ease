@@ -1,0 +1,65 @@
+.home-container {
+    position: relative;
+}
+
+.search-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 9);
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 500px;
+    z-index: 999;
+}
+
+.searchBox {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.carousel-container {
+    margin-top: 0; 
+}
+
+.img-bulding {
+    margin-top: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-img-top {
+    transition: transform 0.3s;
+    /* Adjust the transition duration as needed */
+}
+
+.card-img-top:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    /* Adjust the scale factor as needed */
+}
+
+.button-card {
+    background-color: skyblue;
+    color: skyblue;
+}
+
+.font-for-head {
+    font-family: cursive;
+}
+
